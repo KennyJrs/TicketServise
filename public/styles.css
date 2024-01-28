@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #FFF8D6;
+        box-sizing: border-box;
+        height: 100%;
+        overflow: hidden
+    }
+
+    #header {
+        background-color: #A4D0A4;
+        width: 1680px;
+        height: 370px;
+    }
+
+    nav {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 60px;
+        gap: 370px;
+        justify-content: flex-start;
+    }
+
+    .nav, .sort {
+        list-style: none;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 200px;
+    }
+
+    .nav li, .sort li {
+        clear: both;
+        color: #231D1D;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .settings img {
+        width: 30px;
+        height: 30px;
+        background-color: #F7E1AE;
+        padding: 10px;
+        border: 1px solid #F7E1AE;
+        border-radius: 50%;
+    }
+
+    #set1 {
+        padding: 14px;
+    }
+
+    .settings {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: -3px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .sort {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 280;
+        line-height: normal;
+    }
+
+    .sort ol {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sort li {
+        list-style: none;
+        color: #000000;
+    }
+
+    #tickets {
+        width: 900px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 30px;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #tickets #one, #tickets #two {
+        width: 900px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #tickets .body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-sizing: border-box;
+        width: 900px;
+        height: 160px;
+        border-radius: 10px;
+        border: 1px solid #617A55;
+        background: #FFF;
+        padding: 20px;
+    }
+
+    #tickets ol {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tickets li {
+        color: #000000;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: 100;
+    }
+
+    #tickets p {
+        color: #000000;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    #tickets #one .row1, #tickets #two .row1 {
+        justify-content: flex-start;
+        margin-left: 14px;
+        gap: 188px;
+    }
+
+    #tickets #two .row1 {
+        gap: 177px;
+    }
+
+    #tickets #one .row2, #tickets #two .row2 {
+        margin-left: 14px;
+        justify-content: flex-start;
+        gap: 410px;
+    }
+
+    .buy {
+        background-color: #A4D0A4;
+        margin-left: 370px;
+        padding: 7px 13px;
+    }
+
+    #tickets #one .row3, #tickets #two .row3 {
+        margin-left: 14px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #tickets #two .row2 {
+        margin-left: 10px;
+    }
+
+    #tickets #two .row3 {
+        margin-left: 10px;
+        gap: 20px;
+    }
+
+    .rating {
+        margin-right: 200px;
+    }
+
+    #search {
+        width: fit-content;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .top-search, .bottom-search {
+        align-items: center;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px 25px;
+        color: #000;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        background-color: #F7E1AE;
+        border-radius: 15px;
+    }
+
+    .bottom-search {
+        gap: 30px;
+        width: fit-content;
+    }
+
+    #search div {
+        background-color: white;
+        height: 30px;
+    }
+
+    .search1 {
+        width: 200px;
+    }
+
+    .search2 {
+        width: 200px;
+    }
+
+    .search3 {
+        width: 50px;
+    }
+
+    .search4 {
+        width: 100px;
+    }
+
+    .search5 {
+        width: 100px;
+    }

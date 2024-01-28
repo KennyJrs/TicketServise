@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Models",
+    "\\database",
+    "\\database\\migrations"
+  ],
+  "SelectedNode": "\\database\\migrations\\2024_01_27_203436_create_tickets_table.php",
+  "PreviewInSolutionExplorer": false
+}
