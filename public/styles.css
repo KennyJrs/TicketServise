@@ -127,6 +127,7 @@
         border: 1px solid #617A55;
         background: #FFF;
         padding: 20px;
+        margin-top: 15px;
     }
 
     #tickets ol {
@@ -140,7 +141,6 @@
     #tickets li {
         color: #000000;
         font-family: 'Inter', sans-serif;
-        font-size: 18px;
         font-style: normal;
         line-height: normal;
         font-weight: 100;
@@ -151,25 +151,26 @@
         font-family: 'Inter', sans-serif;
         font-size: 18px;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 100;
         line-height: normal;
+        margin-left: 14px;
     }
+
 
     #tickets #one .row1, #tickets #two .row1 {
-        justify-content: flex-start;
         margin-left: 14px;
-        gap: 188px;
-    }
-
-    #tickets #two .row1 {
-        gap: 177px;
+        justify-content: flex-start;
     }
 
     #tickets #one .row2, #tickets #two .row2 {
         margin-left: 14px;
         justify-content: flex-start;
-        gap: 410px;
+        gap: 460px;
     }
+
+     #tickets #two .row2 {
+         margin-left: 12px;
+     }
 
     .buy {
         background-color: #A4D0A4;
@@ -191,6 +192,42 @@
     #tickets #two .row3 {
         margin-left: 10px;
         gap: 20px;
+    }
+
+    .dep-date, .dest-date {
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 10px;
+    }
+
+    .dep-time, .dest-time, price {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .dest-time {
+        margin-left: 150px;
+    }
+
+    .travel-time {
+        margin-left: 100px;
+    }
+
+    .price {
+        margin-left: 120px;
+    }
+
+    #two .price {
+        margin-left: 145px;
+    }
+
+    .travel-time, .dest-place, .dep-place, .transporter, .rating {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    #two .dest-place {
+        margin-left: -20px;
     }
 
     .rating {
@@ -232,27 +269,46 @@
         width: fit-content;
     }
 
-    #search div {
-        background-color: white;
-        height: 30px;
+    #search select, #selectPassengerAmount {
+        /*background-color: white;
+        height: 30px;*/
+        border: none;
+        border-radius: 5px;
     }
 
-    .search1 {
+    /*.search1 {
+        width: 200px;
+    }*/
+
+    /*#search1 {
+        width: 200px;
+        padding: 8px 16px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #ffff;
+    }*/
+
+    #selectDeparture, #selectArrival {
         width: 200px;
     }
 
-    .search2 {
+    /*.search2 {
         width: 200px;
-    }
+    }*/
 
-    .search3 {
+    #selectPassengerAmount {
         width: 50px;
     }
 
-    .search4 {
+   /* .search4 {
         width: 100px;
     }
 
     .search5 {
         width: 100px;
+    }*/
+
+    #tickets #one, #tickets #two {
+        display: none;
     }

@@ -4,7 +4,11 @@
     "\\app",
     "\\app\\Models",
     "\\database",
-    "\\database\\migrations"
+    "\\database\\migrations",
+    "\\public",
+    "\\resources",
+    "\\resources\\views",
+    "\\routes"
   ],
   "SelectedNode": "\\database\\migrations\\2024_01_27_203436_create_tickets_table.php",
   "PreviewInSolutionExplorer": false

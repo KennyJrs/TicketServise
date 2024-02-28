@@ -5,7 +5,6 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
-{
     /**
      * Run the migrations.
      */
@@ -18,7 +17,9 @@ return new class extends Migration {
             $table->string('arrival_place');
             $table->double('ticket_price');
             $table->time('departure_time');
+            $table->date('departure_date');
             $table->time('arrival_time');
+            $table->date('arrival_date');
             $table->string('transporter');
             $table->decimal('transporter_rating');
         });
